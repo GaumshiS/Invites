@@ -1,0 +1,200 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+body{
+    background-color: #fff;
+}
+#main{
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(300deg, #7a38ff, #bb72d0, #ffd1ff);
+      animation: gradient-animation 3s ease infinite;
+}
+.name{
+      font-family: 'Sacramento', cursive;
+      /* font-family: 'Yeseva One', cursive; */
+      display: flex;
+      color:rgb(134, 0, 134);
+      justify-content:center;
+      font-weight: bolder;
+      align-items:center;
+      font-size: 10rem;
+      height: 100rem;
+      width: 100%;
+      flex-direction: column;
+      /* margin-top: -20rem; */
+      
+
+}
+#main .ganeshji{
+      height: 10rem;
+      width: 6rem;
+      display: flex;
+      padding: 2rem 0;
+      margin:0 0 0 2rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+}
+.invite{
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      /* padding-top:6rem; */
+      margin-top: 3rem;
+      font-family: 'Yeseva One', cursive;
+      font-size: 1.5rem;
+      flex-direction: column;
+
+
+}
+
+
+
+.dot{
+      padding: 3rem 0 5rem 0;
+}
+.make{
+      font-size: 1.5rem;
+      font-family: 'Yeseva One', cursive;
+      
+}
+.date{
+      font-family: 'Yeseva One', cursive;
+      display: flex;
+      font-size: 2.3rem;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      padding: 6rem 0;
+}
+span{
+      font-size: 7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      margin: 5rem 0 0 0 ;
+      padding-top: 2rem ;
+}
+
+.footer{
+      padding: 8rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20rem;
+      background-color:rgb(134, 0, 134); 
+      
+      
+
+}
+.footer .a{
+      text-decoration: none;
+      /* background: linear-gradient(300deg, #ffd1ff, #bb72d0,  #7a38ff);
+      animation: gradient-animation 3s ease infinite; */
+      font-family: 'Sacramento', cursive;
+      font-size: 1.5rem;
+      color: #fba7fb;
+      padding-right: 0.5rem;
+
+}
+
+.footer img{
+      position:absolute;
+      display: flex;
+      height:50rem;
+      
+
+}
+.i{
+      padding-right: 0.6rem;
+}
+#main .couple{
+      height: 15rem;
+}
+
+
+
+
+
+@media (max-width:600px) {
+      .name{
+            font-size:3.1rem ;
+            padding:5rem  0 0 0;
+            font-weight: bolder;  
+        }
+         #main .ganeshji{
+            height: 6rem;
+            width: 2rem;
+        }
+        .invite{
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            padding-top:3rem;
+            margin-top: 3rem;
+            font-family: 'Yeseva One', cursive;
+            font-size: 1rem;
+            flex-direction: column;
+      
+      
+      }
+      span{
+            font-size: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 200;
+            margin: 5rem 0 0 0 ;
+            padding: 2rem ;
+      }
+      .make{
+            font-size: 1rem;
+            font-family: 'Yeseva One', cursive;
+            
+      }
+      .date{
+            font-family: 'Yeseva One', cursive;
+            display: flex;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+            font-weight: 200;
+            flex-direction: column;
+            font-weight: 200r;
+            padding:3rem;
+      }
+      .name .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+      .footer .a{
+            text-decoration: none;
+            /* background: linear-gradient(300deg, #ffd1ff, #bb72d0,  #7a38ff);
+            animation: gradient-animation 3s ease infinite; */
+            font-family: 'Sacramento', cursive;
+            font-size: 1rem;
+            color: #fba7fb;
+      
+      }
+      .footer{
+            padding: 6rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7rem;
+            background-color:rgb(134, 0, 134); 
+            
+            
+      
+      }
+      #main .couple{
+            height: 8rem;
+      }
+
+}
